@@ -1,0 +1,21 @@
+
+#menu-h{
+    background-color: black;
+}
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 5%;
+}
+#menu-h ul li {
+    display: inline;
+}
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+
+}
+#menu-h ul li a:hover {
+    background-color: rgba(209, 36, 59, 0.301);
+}
