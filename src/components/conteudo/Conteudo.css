@@ -5,7 +5,7 @@
 
   .manchete{
       align-items: justify;  
-      margin-left: 20%;
+      margin-left: 6%;
       margin-right: 20%;
       max-width: 876px; 
   }
@@ -23,13 +23,25 @@
     font-size: 16px;
     line-height: 24px;
     max-width: 876px; 
+    color: #4d4d4d;
   }
   .autor{
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     font-style: normal;
-    text-align: justify; 
+    text-align: justify;
+    color: #4d4d4d; 
+	  border-bottom: 1px solid rgb(228, 228, 228);
+  }
+  .autor b u{
+    color:#262626;
+  }
+  .autor hr{
+    border-width: 0;
+    border-top-width: 1px;
+    height: 1px;
+    border-color: #acacac;
   }
   .horario-mocado{
     font-weight: 400;
@@ -37,11 +49,10 @@
     line-height: 16px;
     font-style: normal;
     text-align: justify; 
-
+    color: #4d4d4d; 
   }
   .logo-cnn{
     background-color: white;
-
   }
   .logo-cnn img{
     max-width: 130px;
@@ -54,13 +65,15 @@
     max-width: 744px;
     display: block;
     margin-left: auto;
-    
   }
   .texto-noticia p{
     font-size: 18px;
     line-height: 28px;
     letter-spacing: .01em;
-    color: #262626;
-    font-weight: 300;
-    
+    color: #4d4d4d;
+    font-weight: 400;
+  }
+  .texto-noticia a{
+    color: #418FFF;
+    font-weight: 500;
   }

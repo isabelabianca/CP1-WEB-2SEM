@@ -11,11 +11,24 @@
     display: inline;
 }
 #menu-h ul li a {
-    color: #FFF;
-    padding: 20px;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    padding: 12px;
     display: inline-block;
-
 }
+
 #menu-h ul li a:hover {
-    background-color: rgba(209, 36, 59, 0.301);
+    background-color: #282828;
+    color:#FFF
+}
+#live{
+    background-color: #282828;
+}
+#circle {
+    max-width: 11px;
+    min-width: auto;
+    margin-left: 5px;
+  }
+#saude{
+    font-weight: bold;
 }
